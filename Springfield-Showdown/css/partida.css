@@ -1,0 +1,128 @@
+body {
+    background-image: url('../img/partida.png');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Simpsonfont', sans-serif;
+    
+}
+
+h1, h2{
+  font-family: 'Simpsonfont';
+  margin: 2rem;
+  margin-top: 5% ;
+}
+
+
+
+/* TIMER Y LOGO */
+.timer {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: bold;
+  z-index: 2;
+}
+
+
+#juego-container {
+  text-align: center;
+}
+
+#zona-avatar img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+#cuadro-morado {
+  background-color: #9b59b6;
+  width: 200px;
+  height: 100px;
+  margin: 20px auto;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#temporizador {
+  color: white;
+  font-size: 40px;
+}
+
+.cartas-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .carta {
+      background: white;
+      border: 2px solid #333;
+      border-radius: 8px;
+      width: 160px;
+      padding: 10px;
+      text-align: left;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    }
+
+    .carta h4 {
+      margin: 0 0 8px 0;
+      font-size: 1.1em;
+      color: #444;
+    }
+
+    .atributo {
+      margin: 4px 0;
+      font-size: 0.9em;
+    }
+
+    #atributoSelect {
+      margin-top: 20px;
+    }
+
+    .ganador {
+      border: 3px solid gold;
+      background-color: #ffffcc;
+    }
+
+    .cartas-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .carta {
+      border: 2px solid #333;
+      border-radius: 10px;
+      padding: 10px;
+      width: 150px;
+      background: #eeff00;
+      cursor: pointer;
+      margin-top: 12%;
+      font-family: 'Simpsonfont';
+    }
+
+    .carta.seleccionada {
+      background-color: lightgreen;
+    }
+
+    .atributo-btns {
+      margin-top: 10px;
+      margin-left: 1%;
+      text-align: center;
+      font-family: 'Simpsonfont';
+    
+    }
+
+    .atributo-btns button {
+      margin: 5px;
+      border-radius: 20%;
+    }
+
+    
